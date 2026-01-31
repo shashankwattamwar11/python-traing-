@@ -8,7 +8,7 @@ python -m venv myenv
 step 3:- active the env
 .\myenv\Scripts\activate   -> show :- (myenv) PS C:\Users\student\Desktop\Pruthvi> 
 
-deactivate :- (myenv) PS C:\Users\student\Desktop\Pruthvi> deactivate
+::deactivate :- (myenv) PS C:\Users\student\Desktop\Pruthvi> deactivate
 
 installing packages inside virtual env ((myenv) PS C:\Users\student\Desktop\Pruthvi> ) 
 install a package :- pip install requests
