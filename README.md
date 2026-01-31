@@ -1,1 +1,63 @@
 # python-traing-
+step 1 :- check python version 
+python --version
+
+step 2:- create virtual env  
+python -m venv myenv    
+
+step 3:- active the env
+.\myenv\Scripts\activate   -> show :- (myenv) PS C:\Users\student\Desktop\Pruthvi> 
+
+deactivate :- (myenv) PS C:\Users\student\Desktop\Pruthvi> deactivate
+
+installing packages inside virtual env ((myenv) PS C:\Users\student\Desktop\Pruthvi> ) 
+install a package :- pip install requests
+
+check install packages(display):- 
+
+pip list
+
+Package            Version
+------------------ --------
+certifi            2026.1.4
+charset-normalizer 3.4.4
+idna               3.11
+pip                25.3
+requests           2.32.5
+urllib3            2.6.3
+
+freezing dependencies :-
+pip freeze
+
+generate requirements.txt:-
+pip freeze > requirements.txt
+
+install dependencies:- pip install -r requirements.txt
+
+
+
+What is web scraping?
+A script visits a web page, reads its content (HTML), and pulls out the information you want.
+
+Beautiful Soup
+Beautiful Soup parses HTML so you can easily extract data from web pages.
+
+Web scraping architecture
+
+URL
+ ↓
+HTTP Request (requests)
+ ↓
+HTML Response
+ ↓
+Parser (BeautifulSoup)
+ ↓
+Extracted Data
+ ↓
+Save (CSV / JSON)
+
+beutifulesoup cmd:- pip install requests beutifulesoup
+
+https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/
+
+pip install :- pip install psycopg2-binary
